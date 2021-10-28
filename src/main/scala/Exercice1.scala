@@ -45,5 +45,5 @@ object Exercice1 extends App  {
   SortDFSQL.show(SortDFSQL.count.toInt,false)
   multiline_df.printSchema()
 
-
+  spark.stop
 }
