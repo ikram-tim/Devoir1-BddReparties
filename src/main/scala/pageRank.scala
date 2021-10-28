@@ -71,5 +71,5 @@ object pageRank extends App {
 
   }
   println(List(A, B, C, D))
-
+  spark.stop
 }
